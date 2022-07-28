@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>608</width>
+    <height>274</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>608</width>
+    <height>274</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>608</width>
+    <height>274</height>
+   </size>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../SCLegacy/1234.ico</normaloff>../../SCLegacy/1234.ico</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+	background-color:rgb(54, 57, 63);
+}
+&quot;rgb(142, 146, 151)  text&quot;
+&quot;rgb(47, 49, 54) back&quot;
+
+
+
+
+
+
+
+
+ QTabWidget
+ {
+     border-top: 1px solid gray;
+     border-left: 1px solid gray;
+     border-right: 1px solid gray;
+     border-bottom: 1px solid gray;
+ }
+
+
+
+
+QPushButton{
+	float: right;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: rgb(77, 80, 102);
+	border-bottom: 4px solid rgba(217,91,72,1);
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	width: 75px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+    border: bold;
+}
+
+QPlainTextEdit{
+	float: right;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: rgb(165, 166, 182);
+	border-bottom: 4px solid rgba(217,91,72,1);
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	width: 75px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+    border: bold;
+}
+	
+QPushButton:hover{
+	background-color: rgb(115, 114, 145);
+}
+
+QPushButton:pressed{
+	background-color: silver;
+}
+
+QLabel{
+	color:white;
+	width: 75px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+    border: bold;
+}
+
+QLineEdit{
+	float: right;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: rgb(165, 166, 182);
+	border-bottom: 4px solid rgba(217,91,72,1);
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	width: 75px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+    border: bold;
+}
+
+
+
+</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>651</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>651</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTabWidget::pane
+ {
+     border-top: rgb(47, 49, 54);
+     border-left: 1px solid gray;
+     border-right: 1px solid gray;
+     border-bottom: 1px solid gray;
+ }
+
+ QTabBar::tab
+ {
+    
+	float: right;
+	font-size: 1.2em;
+	background-color: rgb(89, 94, 104);
+	border-bottom: rgba(217,91,72,1);
+	color: white;
+	font-family: 'Roboto Slab', serif;
+     min-width: 320px;
+     padding-top : 6px;
+     padding-bottom : 8px;
+	font-size: 13px;
+	font-weight: bold;
+    border: bold;
+	color: rgb(170, 176, 186);
+
+ }
+
+
+
+ QTabBar::tab:selected, QTabBar::tab:hover 
+{
+     background-color: rgb(77, 80, 102);
+ }
+
+QPushButton{
+	float: right;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: rgb(89, 94, 104);
+	border-bottom: 4px solid rgba(217,91,72,1);
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	width: 75px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+    border: bold;
+	color: rgb(170, 176, 186);
+
+}
+
+QPlainTextEdit{
+	float: right;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: rgb(104, 110, 121);
+	border-bottom: 4px solid rgba(217,91,72,1);
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	width: 75px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+    border: bold;
+}
+	
+QPushButton:hover{
+	background-color: rgb(77, 80, 102);
+	color: white;
+}
+
+QPushButton:pressed{
+	background-color: silver;
+}
+
+QLabel{
+	color:rgb(170, 176, 186);
+	width: 75px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+    border: bold;
+}
+
+QLineEdit{
+	float: right;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: rgb(104, 110, 121);
+	border-bottom: 4px solid rgba(217,91,72,1);
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	width: 75px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+    border: bold;
+}
+
+</string>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <property name="focusPolicy">
+     <enum>Qt::TabFocus</enum>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::DefaultContextMenu</enum>
+    </property>
+    <attribute name="title">
+     <string>Main</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>210</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string>Play                                  </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>170</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Check update                 </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>10</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Find SCFA                       </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>50</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Confirm                           </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>391</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>100</y>
+       <width>391</width>
+       <height>141</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>194</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Version</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>None</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>121</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <property name="contextMenuPolicy">
+     <enum>Qt::ActionsContextMenu</enum>
+    </property>
+    <attribute name="title">
+     <string>Settings</string>
+    </attribute>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>10</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Delete Version               </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>40</y>
+       <width>391</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>121</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID file on server</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>391</width>
+       <height>21</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>151</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>ID version on server</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>70</y>
+       <width>121</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Confirm</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>140</y>
+       <width>121</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Confirm</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>170</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>2.6.4</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>140</y>
+       <width>151</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Install stable version</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>210</y>
+       <width>181</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>67 (Tournament)</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

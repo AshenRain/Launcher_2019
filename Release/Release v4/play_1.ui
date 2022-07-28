@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>327</width>
+    <height>195</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+	background-color:rgb(106, 106, 106);
+
+
+}
+
+QPushButton{
+	float: right;
+	border-radius: 5px;
+	padding: 5px 9px;
+	font-size: 1.2em;
+	background-color: rgb(77, 80, 102);
+	border-bottom: 4px solid rgba(217,91,72,1);
+	color: white;
+	font-family: 'Roboto Slab', serif;
+	width: 75px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+    border: bold;
+}
+	
+QPushButton:hover{
+	background-color: rgb(115, 114, 145);
+}
+
+QPushButton:pressed{
+	background-color: silver;
+}
+
+QLabel{
+	color:white;
+	width: 75px;
+	height: 50px;
+	font-size: 14px;
+	font-weight: bold;
+    border: bold;
+}
+
+
+
+</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>50</y>
+     <width>361</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color white;</string>
+   </property>
+   <property name="text">
+    <string>SCFA not determined!
+ Find SCFA on main window</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>110</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ok</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
